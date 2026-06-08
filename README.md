@@ -1,7 +1,7 @@
 # LFM25.java
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/54f57e18-b26e-4121-8ef8-9522f28ad0b4">
+  <img src="https://github.com/user-attachments/assets/9cf7bc77-6382-4920-9e29-7b3595047bac">
 </p>
 
 <div align="center">
