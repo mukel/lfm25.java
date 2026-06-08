@@ -31,7 +31,18 @@ Fast, zero-dependency, inference engine for [Liquid AI](https://www.liquid.ai/) 
 
 ## Setup
 
-Download an [LFM2.5 model](https://www.liquid.ai/models) in GGUF format or convert one with [llama.cpp](https://github.com/ggml-org/llama.cpp). The runner expects a `.gguf` file compatible with LFM2.5 metadata.
+Download GGUF models from Hugging Face:
+
+| Model | Architecture | GGUF Repository |
+|-------|-------------|-----------------|
+| 350M | Dense | [LiquidAI/LFM2.5-350M-GGUF](https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF) |
+| 1.2B-Thinking | Dense | [LiquidAI/LFM2.5-1.2B-Thinking-GGUF](https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking-GGUF) |
+| 1.2B-Instruct | Dense | [LiquidAI/LFM2.5-1.2B-Instruct-GGUF](https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF) |
+| 8B-A1B | Mixture of Experts (MoE) | [LiquidAI/LFM2.5-8B-A1B-GGUF](https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF) |
+
+## Setup
+
+Download an [LFM2.5 model](https://www.liquid.ai/models) in GGUF format or convert one with [llama.cpp](https://github.com/ggml-org/llama.cpp).
 
 #### Optional: pure quantizations
 
